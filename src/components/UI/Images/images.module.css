@@ -1,0 +1,132 @@
+:root {
+  --primary-size: 200px;
+  --hover-size: 210px;
+  --410-screens: 170px;
+  --550-screens: 190px;
+}
+
+.images-container {
+  margin: 3rem 0 2rem 1rem;
+  width: fit-content;
+  max-height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.images-container img {
+  min-height: var(--primary-size);
+  min-width: var(--primary-size);
+  max-height: var(--primary-size);
+  max-width: var(--primary-size);
+}
+
+.images-container img:hover {
+  min-height: var(--hover-size);
+  min-width: var(--hover-size);
+  max-height: var(--hover-size);
+  max-width: var(--hover-size);
+}
+
+.button-icon {
+  font-size: 1.5rem;
+}
+
+.images-container button {
+  min-height: fit-content;
+  padding: 5px 0 5px 0;
+  border: none;
+  background-color: rgba(255, 252, 252, 0.5);
+  position: absolute;
+}
+
+.images-container button:hover .button-icon {
+  font-size: 2rem;
+  color: aqua;
+}
+
+.images-buttons-left {
+  left: 0;
+}
+
+.images-buttons-right {
+  right: 0;
+}
+
+@media (max-width: 410px) {
+  .images-container img {
+    min-height: var(--410-screens);
+    min-width: var(--410-screens);
+    max-height: var(--410-screens);
+    max-width: var(--410-screens);
+  }
+
+  .images-container img:hover {
+    min-height: var(--410-screens);
+    min-width: var(--410-screens);
+    max-height: var(--410-screens);
+    max-width: var(--410-screens);
+  }
+}
+
+@media (max-width: 380px) {
+  .modal-img {
+    max-width: 375px;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 410px) {
+  .modal-img {
+    max-width: 380px;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 480px) {
+  .modal-img {
+    max-width: 410px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 520px) {
+  .modal-img {
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 550px) {
+  .modal-img {
+    max-width: 520px;
+  }
+}
+
+@media (max-width: 550px) {
+  .modal-img {
+    margin: 1rem auto;
+    padding: 0.8rem;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 580px) {
+  .modal-img {
+    max-width: 551px;
+  }
+}
+
+@media (min-width: 581px) and (max-width: 610px) {
+  .modal-img {
+    max-width: 581px;
+  }
+}
+
+@media (min-width: 611px) and (max-width: 650px) {
+  .modal-img {
+    max-width: 610px;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 680px) {
+  .modal-img {
+    max-width: 650px;
+  }
+}

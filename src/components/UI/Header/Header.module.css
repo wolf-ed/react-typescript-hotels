@@ -1,0 +1,30 @@
+.header {
+  background-color: rgba(245, 245, 245, 255);
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+  overflow: hidden;
+  max-height: 20rem;
+  object-fit: fill;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  justify-content: center;
+}
+
+.header img {
+  width: 100%;
+  transform: translateY(-35%);
+}
+
+@media (max-width: 770px) {
+  .header {
+    width: 100%;
+  }
+  .header img {
+    width: 100%;
+    transform: translateY(0%);
+  }
+}

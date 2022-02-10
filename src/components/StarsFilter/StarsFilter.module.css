@@ -1,0 +1,23 @@
+.stars-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.star {
+  font-size: 2rem;
+}
+
+@media (max-width: 410px) {
+  .star {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .star {
+    font-size: 1.2rem;
+  }
+}

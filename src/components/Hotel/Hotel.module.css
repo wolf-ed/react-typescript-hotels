@@ -1,0 +1,110 @@
+.hotel {
+  padding: 2rem 0.5rem;
+  margin: 2rem auto;
+  width: 50rem;
+  background-color: white;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.hotel-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
+  margin-bottom: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.stars {
+  margin-right: 1rem;
+  margin-top: 0;
+  width: fit-content;
+}
+
+.info div,
+.info p {
+  justify-content: left;
+  width: fit-content;
+}
+.info h2 {
+  margin-top: 0;
+}
+
+.sub-info p,
+.sub-info h2 {
+  width: fit-content;
+  /* justify-content: left; */
+  text-align: left;
+}
+
+.info div {
+  margin-left: 1rem;
+}
+
+@media (max-width: 380px) {
+  .hotel {
+    max-width: 375px;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 410px) {
+  .hotel {
+    max-width: 380px;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 480px) {
+  .hotel {
+    max-width: 410px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 520px) {
+  .hotel {
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 550px) {
+  .hotel {
+    max-width: 520px;
+  }
+}
+
+@media (max-width: 550px) {
+  .hotel {
+    margin: 1rem auto;
+    padding: 0.8rem;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 580px) {
+  .hotel {
+    max-width: 551px;
+  }
+}
+
+@media (min-width: 581px) and (max-width: 610px) {
+  .hotel {
+    max-width: 581px;
+  }
+}
+
+@media (min-width: 611px) and (max-width: 650px) {
+  .hotel {
+    max-width: 610px;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 680px) {
+  .hotel {
+    max-width: 650px;
+  }
+}
